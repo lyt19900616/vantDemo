@@ -1,0 +1,76 @@
+/** 文字缩略*/
+.one-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.two-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.three-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+:root {
+/*  主题颜色*/
+  --themeColor: #FFC809;
+/*  主题辅助颜色*/
+  --themeSub: #FFBB00;
+/*  红色--炎*/
+  --redColr: #FF3300;
+/*  蓝色--皇室蓝*/
+  --blueColor: #4169E1;
+
+/*  黑色*/
+  /*  标题*/
+  --blackTitle: #333333;
+  /*正文*/
+  --blackContent: #7B7B7B;
+  /*时间等*/
+  --blackSub: #BBBBBB;
+  /*分割线*/
+  --separateLine: #E5E5E5;
+  /*背景色*/
+  --backgroundColor: #F3F3F3;
+
+
+
+/*  全局边距*/
+/*  常用的 （20px 微信）  （24px 支付宝）  （30px iOS 使用最多的） 32px*/
+  --globalMargin: 15px;
+/*  卡片间距*/
+/*  20 24 30 40 */
+  --cardMargin: 12px;
+
+
+/*  内容布局*/
+/*  列表布局*/
+/*  列表高度 （微信 138px） （QQ 132px）110px 106px*/
+
+/*  界面图片比例*/
+/*  16：9    4：3    3：2    1：1    1：0.618（黄金比例）*/
+
+/*  界面文字*/
+/*  文字一般在 20-36*/
+/*  上下级差级为2-4号*/
+/*
+      字号            使用场景                           备注
+      36px          用在少数标题                        如导航标题、分类名称等
+      32px          用在少数标题                        如列表店铺标题等
+      30px          用在较为重要的文字或操作按钮          如列表性标题分类名称等
+      28px          用于段落文字                        如列表性商品标题等
+      26px          用于段落文字                        如小标题模块描述等
+      24px          用于辅助性文字                      如次要的标语等
+      22px          用于辅助性文字                      次要的备注信息等
+*/
+/*  出自 https://www.uisdc.com/mobile-ui-design-specifications */
+}
+
+
